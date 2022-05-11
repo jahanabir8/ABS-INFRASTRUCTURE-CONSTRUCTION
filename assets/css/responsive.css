@@ -1,0 +1,232 @@
+@media screen and (max-width: 1199px) {
+    .header-top-area {
+        padding: 0 30px;
+      }
+      .menu__section {
+        padding: 14px 30px;
+    }
+
+    .about__me__section {
+      padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header-top-area {
+    padding: 0 50px;
+  }
+
+  .menu__section {
+    padding: 14px 50px;
+  }
+
+    .device__menu__section{
+		display: none;
+	}
+
+	.menu__section .menu__bar{
+		display: block;
+	}
+
+  .about__me__section {
+    margin: 0;
+}
+
+.about__me__section .text__section {
+  max-width: none;
+  margin-top: 50px;
+}
+
+.client__section {
+  margin: 60px 0;
+}
+
+.widget-area {
+  padding: 60px 0;
+}
+
+.seperate__section {
+  padding:  0;
+}
+
+.contact_info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.info-line {
+  justify-content: center;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+  .header-top-area {
+    padding: 0 30px;
+  }
+
+  .menu__section {
+    padding: 14px 30px;
+}
+
+.about__me__section {
+  margin: 50px 0;
+}
+
+.about__me__section .text__section {
+  max-width: none;
+}
+
+.accordion h3 {
+  font-size: 17px;
+}
+
+.accordion__hidden__one p
+ .accordion__hidden__two p,
+  .accordion__hidden__three p,
+   .accordion__hidden__four p,
+    .accordion__hidden__five p,
+     .accordion__hidden__six p {
+      font-size: 16px;
+}
+
+.project__section {
+  margin: 135px 50px 40px;
+}
+
+.project__inner .parent {
+  margin-bottom: 30px;
+}
+
+.copyright-area {
+  padding: 10px 0;
+}
+
+.copyright-area p {
+  font-size: 17px;
+}
+
+
+}
+
+@media screen and (max-width: 575px) {
+  .header-top-area {
+    padding: 0 20px;
+}
+  .slider-content h1 {
+    font-size: 50px;
+    line-height: 56px;
+}
+
+  .menu__section {
+    padding: 14px 20px;
+}
+
+.mobile__menu{
+    top: 113px;
+}
+
+.open__up {
+  margin-top: -41px;
+}
+
+.about__me__section {
+  margin: 30px 0;
+}
+
+.equipment__section .title {
+  padding: 0 16px;
+}
+
+.equipment__section .title h4 {
+  font-size: 28px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 424px) {
+  .header-top-area {
+    padding: 0 10px;
+  }
+
+  .mobile__menu {
+    top: 105px;
+}
+
+  .header__top__right .contact__number span {
+    font-size: 15px;
+}
+  .social__section > a {
+    margin-right: 8px;
+  }
+
+  .gallery_section {
+    margin: 140px 0px 75px;
+  }
+
+  .img_inner {
+    margin-right: 0;
+}
+
+  .mobile__menu{
+      width: 100%;
+  }
+
+  .menu__section {
+    padding: 10px;
+}
+
+.equipment__desc .equipment__details ul {
+  padding: 0;
+  margin: 0;
+}
+
+.contact_section {
+  margin: 120px 0px 70px 0px;
+}
+
+.equipment__section .title {
+  padding: 0 5px;
+}
+
+.equipment__section .title h4 {
+  text-align: center;
+}
+
+.equipment__section .title p, .equipment__desc .equipment__details p {
+  margin: 10px 0 17px;
+  line-height: 26px;
+  font-size: 15px;
+}
+
+.owners__bio__inner .bio__title h4 {
+  font-size: 30px;
+}
+
+.owners__bio__inner .owners__bio-data ul li .data-A {
+  width: 170px;
+}
+
+}
+
+@media screen and (max-width: 370px) {
+  .equipment__section .title p, .equipment__desc .equipment__details p {
+    line-height: 23px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .equipment__desc .equipment__details a.readmore {
+    font-size: 18px;
+}
+
+.owners__bio__inner .owners__bio-data ul li .data-A {
+  width: 80px;
+}
+
+}
+
+
