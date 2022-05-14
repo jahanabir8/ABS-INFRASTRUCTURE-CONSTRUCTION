@@ -521,7 +521,7 @@ body{
   color: gray;
 }
 
-.about__me__section .image__section img {
+.image__section img {
   width: 100%;
 }
 /* =====================About me section end here================= */
@@ -713,9 +713,9 @@ body{
   color: #fbba42;
 }
 
-.service__page .image__section img {
+/* .service__page .image__section img {
   width: 100%;
-}
+} */
 
 .seperate__section {
   padding: 40px 0;
@@ -1083,6 +1083,12 @@ project section end here
   font-weight: 600;
   padding-bottom: 20px;
 }
+
+/* ---- */
+.owners__inner .show__in__sm{
+  display: none;
+}
+/* ---- */
 
 /* ==============================
   owners bio page end here

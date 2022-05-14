@@ -146,7 +146,7 @@ var swiper = new Swiper(".mySwiper.first", {
     loop: true,
     speed: 2000,
     autoplay: {
-      delay: 5000,
+      delay: 2000,
       disableOnInteraction: false,
     }
   });
