@@ -1088,6 +1088,17 @@ project section end here
 .owners__inner .show__in__sm{
   display: none;
 }
+
+.owners__inner .owners__content p.speech{
+  padding:0 50px; text-align: justify;  font-size: 20px; line-height: 33px;
+}
+
+.owners__inner .owners__content p.signiture {
+  font-size: 20px;
+  padding: 39px 53px 0 0px;
+  font-family: 'Great Vibes', cursive;
+  margin: 0;
+}
 /* ---- */
 
 /* ==============================
