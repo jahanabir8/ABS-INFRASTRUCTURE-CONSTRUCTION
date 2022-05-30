@@ -261,7 +261,7 @@ body{
     padding: 14px 100px;
     position: fixed;
     width: 100%;
-    z-index: 999;
+    z-index: 9999;
     background: #fff;
     box-shadow: 0 0 35px 5px rgb(156 156 156 / 10%);
     transition: all 0.3s ease-in-out;
