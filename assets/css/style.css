@@ -246,19 +246,20 @@ body{
 /*===========================================
         header menu start here
 ============================================*/
-.menu__inner {
+ .menu__inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 30px;
   }
 
-  .menu__inner .logo__section img {
-    height: 7vh;
-  }
+.menu__inner .logo__section img {
+    width: 110px;
+}
   
   .menu__section {
-    padding: 14px 100px;
+    /* padding: 14px 100px; */
     position: fixed;
     width: 100%;
     z-index: 9999;
@@ -273,7 +274,7 @@ body{
   
   .sticky{
     top: 0;
-    padding: 20px 100px;
+    padding: 0 100px;
     box-shadow: 0 0 35px 5px rgb(156 156 156 / 10%);
   }
   
@@ -1085,22 +1086,53 @@ project section end here
 }
 
 /* ---- */
-.owners__inner .show__in__sm{
+.owners__inner .show__in__lg{
   display: none;
 }
 
+.owners__content h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 .owners__inner .owners__content p.speech{
-  padding:0 50px; text-align: justify;  font-size: 20px; line-height: 33px;
+  padding:0 30px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .owners__inner .owners__content p.signiture {
-  font-size: 20px;
-  padding: 39px 53px 0 0px;
+  font-size: 23px;
+  padding: 5px 53px 0 0px;
   font-family: 'Great Vibes', cursive;
+  font-weight: 500;
   margin: 0;
 }
 /* ---- */
 
+.mission__vision .mission p span,
+ .mission__vision .vission p span,
+ .mission__vision .core__value p span {
+  color: #fbba42;
+  font-weight: bold;
+}
+
+.mission__vision p,
+ .mission__vision .core__value ul li {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.mission__vision .core__value ul li {
+  margin-bottom: 14px;
+}
+
+.mission__vision .core__value ul li span {
+    font-weight: bold;
+}
 /* ==============================
   owners bio page end here
 ================================*/

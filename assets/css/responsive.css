@@ -58,6 +58,18 @@
   justify-content: center;
 }
 
+.owners__inner .show__in__lg{
+  display: block
+
+}
+
+.owners__inner .hide__in__lg{
+  display: none;
+}
+.owners__content h2 {
+  margin: 20px 0 10px;
+}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -67,6 +79,15 @@
 
   .menu__section {
     padding: 14px 30px;
+}
+
+.menu__inner {
+  padding: 0;
+}
+
+.slider-content h1 {
+  font-size: 37px;
+  line-height: 56px;
 }
 
 .about__me__section {
@@ -113,9 +134,14 @@
   .header-top-area {
     padding: 0 20px;
 }
-  .slider-content h1 {
-    font-size: 50px;
+  /* .slider-content h1 {
+    font-size: 37px;
     line-height: 56px;
+} */
+
+.text__section .title h4 {
+  font-size: 20px;
+  font-weight: 600;
 }
 
   .menu__section {
@@ -156,8 +182,12 @@
     top: 105px;
 }
 
+.menu__inner .logo__section img {
+  width: 80px;
+}
+
   .header__top__right .contact__number span {
-    font-size: 15px;
+    font-size: 14px;
 }
   .social__section > a {
     margin-right: 8px;
@@ -210,12 +240,29 @@
   width: 170px;
 }
 
+.slider-content p {
+  padding-right: 0;
 }
 
+}
+
+@media screen and (max-width: 374px) {
+  .slider-content h1 {
+    font-size: 29px;
+    line-height: 42px;
+  }
+
+  .slider-content span {
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+}
+ 
 @media screen and (max-width: 370px) {
   .equipment__section .title p, .equipment__desc .equipment__details p {
     line-height: 23px;
 }
+
 }
 
 @media screen and (max-width: 320px) {
