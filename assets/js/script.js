@@ -148,7 +148,18 @@ var swiper = new Swiper(".mySwiper.first", {
     autoplay: {
       delay: 2000,
       disableOnInteraction: false,
-    }
+    }, 
+    breakpoints: {
+        992: {
+            slidesPerView: 4,
+        },
+        576: {
+            slidesPerView: 2,
+        },
+        320: {
+            slidesPerView: 2,
+        },
+    },
   });
 
 

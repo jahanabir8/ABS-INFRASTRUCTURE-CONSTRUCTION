@@ -770,6 +770,7 @@ p.title {
 
 .project_section {
   margin: 150px 0px 100px 0px;
+  overflow-x: scroll;
 }
 
 .project_title h2 {
